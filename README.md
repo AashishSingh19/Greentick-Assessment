@@ -14,11 +14,8 @@ This is a basic program created using Python as the programming language. This s
 
 ## Assumptions and limitations
 
-1. Basic log file scanning
-   It is a simple system that only reads the text based log file where each entry is on a new line.
-   
-2. Static log file scanning
-   It does not take real time logins into accounts and only analyzes static logs.
+1. It is a simple system that only reads the text based log file where each entry is on a new line.
+2. It does not take real time logins into accounts and only analyzes static logs.
 
 # Webscan crawler
 
@@ -39,11 +36,6 @@ A simple web crawler that can visit a website and scan for basic vulnerabilities
 
 ## Assumptions and limitations
 
-1. Basic Security functions
-   Simple and basic web crawler that only checks for missing action attributes and insecure GET methods.
-   
-2. Scope of software version detection
-   The system only checks Apache version from the server header that if hidden may not detect them.
-   
-3. Limited Javascript Execution
-   The scanner does not execute JavaScript, so vulnerabilities in dynamically loaded content may be missed.
+1. Simple and basic web crawler that only checks for missing action attributes and insecure GET methods.
+2. The system only checks Apache version from the server header that if hidden may not detect them.
+3. The scanner does not execute JavaScript, so vulnerabilities in dynamically loaded content may be missed.
